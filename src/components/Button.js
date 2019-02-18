@@ -3,7 +3,7 @@ import './Button.css'
 
 class Button extends React.Component {
     render() {
-        return <button className="querybutton" type="button">Click Me!</button>
+        return <button className="querybutton" type="button">{this.props.text}</button>
     }
 }
 
