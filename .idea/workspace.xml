@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="222ae237-9c9c-4315-a1ec-91a674af65ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queries/SelectTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/queries/SelectTable.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,13 +27,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Button.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/TableRow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TableHeaderRow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queries/SelectTable.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -65,12 +82,14 @@
         <option value="$PROJECT_DIR$/src/components/Button.js" />
         <option value="$PROJECT_DIR$/src/queries/Connection.js" />
         <option value="$PROJECT_DIR$/src/queries/SelectTable.js" />
+        <option value="$PROJECT_DIR$/src/components/TableRow.js" />
+        <option value="$PROJECT_DIR$/src/components/TableHeaderRow.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="416" />
-    <option name="y" value="-23" />
+    <option name="x" value="720" />
+    <option name="y" value="-3" />
     <option name="width" value="980" />
     <option name="height" value="1045" />
   </component>
@@ -93,6 +112,12 @@
               <item name="reactsqlqueryviewer" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactsqlqueryviewer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactsqlqueryviewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactsqlqueryviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactsqlqueryviewer" type="b2602c69:ProjectViewProjectNode" />
@@ -161,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550448668091</updated>
       <workItem from="1550448669271" duration="2155000" />
-      <workItem from="1550450863105" duration="1152000" />
+      <workItem from="1550450863105" duration="2989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3307000" />
+    <option name="totallyTimeSpent" value="5144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -203,13 +228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queries/Connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -221,6 +239,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TableHeaderRow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TableRow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
