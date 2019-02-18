@@ -2,7 +2,8 @@ import React from 'react'
 
 class TableRow extends React.Component {
     render() {
-        let columns = this.props.values();
+        console.log(this.props);
+        let columns = Object.values(this.props.row);
         return <tr>{columns.map((value) => <td>{value}</td>)}</tr>
     }
 }

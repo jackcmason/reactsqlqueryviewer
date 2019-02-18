@@ -2,7 +2,7 @@ import React from 'react'
 
 class TableHeaderRow extends React.Component {
     render() {
-        let headings = this.props.keys();
+        let headings = Object.keys(this.props.header);
         return <tr>{headings.map(name => <th>{name}</th>)}</tr>
     }
 }
