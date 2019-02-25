@@ -22,11 +22,12 @@ class Table extends React.Component {
     render() {
         const { products } = this.state;
         return <div>
+            <button onClick={(e) => this.getRows('http://localhost:4000/locations', e)}>Get Locations</button>
+            <button onClick={(e) => this.getRows('http://localhost:4000/kits', e)}>Get Kits</button>
+            <button onClick={(e) => this.getRows('http://localhost:4000/kitlocations', e)}>Get Kit Locations</button>
             <table>
                 {products.map(row => <TableRow row = {row}/>)}
             </table>
-            <button onClick={(e) => this.getRows('http://localhost:4000/locations', e)}>Get Locations</button>
-            <button onClick={(e) => this.getRows('http://localhost:4000/kits', e)}>Get Kits</button>
         </div>
     }
 }
