@@ -1,6 +1,7 @@
 import React from 'react'
 import TableHeaderRow from "./TableHeaderRow";
 import TableRow from "./TableRow"
+import Button from "./Button";
 
 class Table extends React.Component {
 
@@ -20,9 +21,13 @@ class Table extends React.Component {
 
     render() {
         const { products } = this.state;
-        return <table>
-            {products.map(row => <TableRow row = {row}/>)}
-        </table>
+        return <div>
+            <table>
+                {products.map(row => <TableRow row = {row}/>)}
+            </table>
+            <button onClick={(e) => this.getRows('http://localhost:4000/locations', e)}>Get Locations</button>
+            <button onClick={(e) => this.getRows('http://localhost:4000/kits', e)}>Get Kits</button>
+        </div>
     }
 }
 
