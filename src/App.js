@@ -3,10 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button'
 import Table from "./components/Table";
-//import TableRow from './components/TableRow'
-//import TableHeaderRow from "./components/TableHeaderRow";
+
+
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -15,9 +16,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Button/>
-          {/*<TableHeaderRow header = {{id:1, name:"jack"}}/>*/}
-          {/*<TableRow row = {{id:1, name:"jack"}}/>*/}
+          <Button text = "example" query = "SELECT * FROM kits" />
           <Table rows = {[{id: 1, name: "jack"},{id: 2, name:"john"}]}/>
           <a
             className="App-link"
